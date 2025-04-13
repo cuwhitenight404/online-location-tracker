@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: location-tracker
+    env: python
+    buildCommand: ""
+    startCommand: "python location_server.py"
